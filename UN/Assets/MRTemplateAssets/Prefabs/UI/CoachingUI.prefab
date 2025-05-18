@@ -379,8 +379,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PokeFollowTransform: {fileID: 3915532937309682008}
   m_PokeFill: {fileID: 6730147006182183956}
-  m_PokeFillMaxSizeX: 252
-  m_PokeFillMaxSizeY: 252
   m_SmoothingSpeed: 8
   m_ReturnToInitialPosition: 1
   m_ApplyIfChildIsTarget: 1
@@ -3331,8 +3329,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PokeFollowTransform: {fileID: 3032334163481419982}
   m_PokeFill: {fileID: 3032334164267043829}
-  m_PokeFillMaxSizeX: 150
-  m_PokeFillMaxSizeY: 150
   m_SmoothingSpeed: 8
   m_ReturnToInitialPosition: 1
   m_ApplyIfChildIsTarget: 1
@@ -4382,8 +4378,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PokeFollowTransform: {fileID: 3032334164725456221}
   m_PokeFill: {fileID: 3032334164994684794}
-  m_PokeFillMaxSizeX: 150
-  m_PokeFillMaxSizeY: 150
   m_SmoothingSpeed: 8
   m_ReturnToInitialPosition: 1
   m_ApplyIfChildIsTarget: 1
@@ -9148,8 +9142,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PokeFollowTransform: {fileID: 3761234415152793697}
   m_PokeFill: {fileID: 7747416992934544046}
-  m_PokeFillMaxSizeX: 272
-  m_PokeFillMaxSizeY: 272
   m_SmoothingSpeed: 8
   m_ReturnToInitialPosition: 1
   m_ApplyIfChildIsTarget: 1
