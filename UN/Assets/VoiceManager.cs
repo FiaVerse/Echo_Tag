@@ -56,6 +56,7 @@ public class VoiceManager : MonoBehaviour
     {
         _voiceCommandReady = true;
         wakeWordDetected?.Invoke();
+        Debug.Log("Wake Word Detected");
     }
 
     private void OnPartialTranscription(string transcription)
@@ -70,5 +71,6 @@ public class VoiceManager : MonoBehaviour
         _voiceCommandReady = false;
         //amazonBedrockConnection.SendPrompt(transcription);
         completeTranscription?.Invoke(transcription);
+        Debug.Log("Full Transcription");
     }
 }
