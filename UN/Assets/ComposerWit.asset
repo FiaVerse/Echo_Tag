@@ -1,5 +1,30 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4494832161945206269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c2918ba0e7451694416d42d69e0944, type: 3}
+  m_Name: WitComposerData
+  m_EditorClassIdentifier: 
+  canvases:
+  - canvasName: Draft
+    contextMap:
+      server: []
+      client: []
+      shared: []
+    actions: []
+  - canvasName: Live
+    contextMap:
+      server: []
+      client: []
+      shared: []
+    actions: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10,54 +35,139 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
-  m_Name: WitTimer
+  m_Name: ComposerWit
   m_EditorClassIdentifier: 
-  _clientAccessToken: QVRSSANXLHSD34KYS4QMJ6XFZKESA74U
+  _clientAccessToken: EFQDKFPSZDF32IASEE3OB2VMCXJ73K7H
   editorVersionTag: 
   buildVersionTag: 
   _appInfo:
-    name: wit_timer
-    id: 1362278535044968
+    name: echo_tag
+    id: 4046509178928114
     lang: en
     isPrivate: 0
-    createdAt: 2025-05-18T10:48:52-0700
+    createdAt: 2025-05-17T10:06:12-0700
     trainingStatus: 1
-    lastTrainDuration: 351
-    lastTrainedAt: 2025-05-18T11:13:41-0700
-    nextTrainAt: 2025-05-18T11:07:50-0700
+    lastTrainDuration: 54
+    lastTrainedAt: 2025-05-18T22:02:15-0700
+    nextTrainAt: 2025-05-18T22:01:21-0700
     intents:
-    - id: 711639467894798
-      name: wit$cancel
-      entities: []
-    - id: 705472388669307
-      name: wit$create_timer
+    - id: 1357031942047403
+      name: cancel
       entities:
-      - name: wit$duration:duration
-        id: 3918535111740140
+      - name: Find_Object:Find_Object
+        id: 9877954315632092
+      - name: object:object
+        id: 1720280308590664
+    - id: 1472378160409471
+      name: find_object
+      entities:
+      - name: Find_Object:Find_Object
+        id: 9877954315632092
+      - name: object:object
+        id: 1720280308590664
+    - id: 3652347961730998
+      name: object
+      entities: []
+    - id: 4005115089759291
+      name: save_anchor
+      entities:
+      - name: save_location:save_location
+        id: 1706033133616897
+    - id: 1412950316262498
+      name: wake_word
+      entities:
+      - name: wake_word:wake_word
+        id: 1921106191968490
+    - id: 1080611463958897
+      name: wit$cancel
+      entities:
+      - name: Never_mind:Never_mind
+        id: 1729564144432416
     entities:
-    - name: cancel
-      id: 1266207248356350
+    - name: Find_Object
+      id: 2065490087266069
+      lookups:
+      - keywords
+      roles:
+      - name: Find_Object
+        id: 9877954315632092
+      keywords:
+      - keyword: controller
+        synonyms:
+        - controller
+      - keyword: find
+        synonyms:
+        - can't find
+        - find
+      - keyword: glasses
+        synonyms:
+        - glasses
+      - keyword: keys
+        synonyms:
+        - keys
+    - name: Never_mind
+      id: 1806818243212313
       lookups:
       - free-text
       - keywords
       roles:
-      - name: cancel
-        id: 1499673111417251
-      keywords: []
-    - name: wit$datetime
-      id: 535a810f-8911-4bfe-976a-6e3c193f1251
-      lookups: []
+      - name: Never_mind
+        id: 1729564144432416
+      keywords:
+      - keyword: Never mind
+        synonyms:
+        - forget
+        - forget it
+        - never mind
+    - name: object
+      id: 2843854649140532
+      lookups:
+      - free-text
+      - keywords
       roles:
-      - name: datetime
-        id: 1881651826083738
-      keywords: []
-    - name: wit$duration
-      id: 535a80fb-4be9-4991-a48e-8b2ca4ef6e54
-      lookups: []
+      - name: object
+        id: 1720280308590664
+      keywords:
+      - keyword: controller
+        synonyms:
+        - controller
+      - keyword: keys
+        synonyms:
+        - keys
+    - name: save_location
+      id: 1001102375476341
+      lookups:
+      - keywords
       roles:
-      - name: duration
-        id: 3918535111740140
-      keywords: []
+      - name: save_location
+        id: 1706033133616897
+      keywords:
+      - keyword: anchor
+        synonyms:
+        - anchor
+        - save
+      - keyword: save
+        synonyms:
+        - remember location
+        - remember place
+        - save
+    - name: wake_word
+      id: 1198692728086910
+      lookups:
+      - keywords
+      roles:
+      - name: wake_word
+        id: 1921106191968490
+      keywords:
+      - keyword: Echo
+        synonyms:
+        - aico
+        - ecco
+        - echo
+        - eco
+        - eecco
+        - eeko
+        - eggo
     traits: []
     versionTags: []
     voices:
@@ -567,8 +677,8 @@ MonoBehaviour:
       - phoneme_events
       - word_events
   _configData:
-  - {fileID: 1080547760536055908}
-  _configurationId: 06f0d2b7-8a44-4a91-a412-1e1087add397
+  - {fileID: -4494832161945206269}
+  _configurationId: 21d0c01d-4d33-4dd8-a7a3-c145b2aff140
   _requestType: 0
   _requestTimeoutMs: 10000
   endpointConfiguration:
@@ -585,21 +695,6 @@ MonoBehaviour:
   isDemoOnly: 0
   useIntentAttributes: 1
   useConduit: 1
-  _manifestLocalPath: ConduitManifest-fdcdda7a-11c3-4fc6-83ff-8f1ec6b60c8b.json
-  excludedAssemblies:
-  - Oculus.Voice.Demo, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  - Meta.WitAi.Samples, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  _manifestLocalPath: ConduitManifest-4f4f0725-0cc1-4d8d-ac92-2d9cdb43f942.json
+  excludedAssemblies: []
   relaxedResolution: 0
---- !u!114 &1080547760536055908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1c2918ba0e7451694416d42d69e0944, type: 3}
-  m_Name: WitComposerData
-  m_EditorClassIdentifier: 
-  canvases: []
