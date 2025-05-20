@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ca6a030-5a4f-4f93-8cf0-1c8007bffcbd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WitTimer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WitTimer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WitTimerTest.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WitTimerTest.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OculusSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OculusSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/XRGeneralSettingsPerBuildTarget.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/wit.config" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/wit.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObjectTagManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ObjectTagManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +20,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/TimerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TimerDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -115,6 +113,8 @@
       <workItem from="1747626456823" duration="595000" />
       <workItem from="1747633192591" duration="3332000" />
       <workItem from="1747638995442" duration="68000" />
+      <workItem from="1747708070820" duration="109000" />
+      <workItem from="1747708196163" duration="232000" />
     </task>
     <servers />
   </component>
