@@ -15,7 +15,10 @@ MonoBehaviour:
   canvases:
   - canvasName: Draft
     contextMap:
-      server: []
+      server:
+      - path: test
+        values:
+        - Find_Object:Find_Object
       client: []
       shared: []
     actions: []
