@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca6a030-5a4f-4f93-8cf0-1c8007bffcbd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ObjectTagManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ObjectTagManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ObjectTagManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +114,7 @@
       <workItem from="1747638995442" duration="68000" />
       <workItem from="1747708070820" duration="109000" />
       <workItem from="1747708196163" duration="232000" />
+      <workItem from="1747709768006" duration="624000" />
     </task>
     <servers />
   </component>
