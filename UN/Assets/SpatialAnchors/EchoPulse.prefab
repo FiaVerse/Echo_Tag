@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9053722181660244475}
+  - component: {fileID: 6359603122204507686}
+  - component: {fileID: -3877405910305024173}
   m_Layer: 0
   m_Name: EchoPulse
   m_TagString: Untagged
@@ -32,6 +34,42 @@ Transform:
   - {fileID: 1804461987142872934}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6359603122204507686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3738278735462953487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e0461a4939d3b4fbdf706bbd80108c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-3877405910305024173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3738278735462953487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d889ff7adda992d4d831cc7cf06f4541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 0}
+  _pivot: {fileID: 0}
+  _anchorMenu: {fileID: 0}
+  _anchorName: {fileID: 0}
+  _saveIcon: {fileID: 0}
+  _labelImage: {fileID: 0}
+  _labelBaseColor: {r: 0, g: 0, b: 0, a: 0}
+  _labelHighlightColor: {r: 0, g: 0, b: 0, a: 0}
+  _labelSelectedColor: {r: 0, g: 0, b: 0, a: 0}
+  _uiManager: {fileID: 0}
+  _renderers: []
+  _buttonList: []
 --- !u!1 &4607733801579893377
 GameObject:
   m_ObjectHideFlags: 0
@@ -60,7 +98,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9053722181660244475}
