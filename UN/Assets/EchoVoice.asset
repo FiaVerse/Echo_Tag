@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4494832161945206269
+--- !u!114 &-6003691182680531208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -35,7 +35,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
-  m_Name: ComposerWit
+  m_Name: EchoVoice
   m_EditorClassIdentifier: 
   _clientAccessToken: EFQDKFPSZDF32IASEE3OB2VMCXJ73K7H
   editorVersionTag: 
@@ -677,8 +677,8 @@ MonoBehaviour:
       - phoneme_events
       - word_events
   _configData:
-  - {fileID: -4494832161945206269}
-  _configurationId: 21d0c01d-4d33-4dd8-a7a3-c145b2aff140
+  - {fileID: -6003691182680531208}
+  _configurationId: 27463529-98af-47f8-8157-3988af93c7fa
   _requestType: 0
   _requestTimeoutMs: 10000
   endpointConfiguration:
@@ -694,7 +694,7 @@ MonoBehaviour:
     _converse: 
   isDemoOnly: 0
   useIntentAttributes: 1
-  useConduit: 0
-  _manifestLocalPath: ConduitManifest-4f4f0725-0cc1-4d8d-ac92-2d9cdb43f942.json
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-4dd25457-1ff6-4800-8b50-fef00b6cac8f.json
   excludedAssemblies: []
   relaxedResolution: 0

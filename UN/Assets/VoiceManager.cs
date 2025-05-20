@@ -11,8 +11,12 @@ public class VoiceManager : MonoBehaviour
     [Header("Wit Configuration")]
     [SerializeField] private AppVoiceExperience appVoiceExperience;
     [SerializeField] private WitResponseMatcher responseMatcher;
-    [SerializeField] private TextMeshProUGUI transcriptionText;
+    
     //[SerializeField] private InputField transcriptionText;
+    
+    [Header("UI Elements")]
+    [SerializeField] private TextMeshProUGUI transcriptionText;
+    [SerializeField] private TextMeshProUGUI composerResponseText;
 
     [Header("Voice Events")]
     //[SerializeField] private AmazonBedrockConnection amazonBedrockConnection;
@@ -71,6 +75,6 @@ public class VoiceManager : MonoBehaviour
         _voiceCommandReady = false;
         //amazonBedrockConnection.SendPrompt(transcription);
         completeTranscription?.Invoke(transcription);
-        Debug.Log("Full Transcription");
+        Debug.Log("[VoiceManager] Full Transcription: " + transcription);
     }
 }

@@ -1,0 +1,266 @@
+{
+    "name": "live",
+    "modules": [
+        {
+            "id": "response_1",
+            "point": {
+                "x": 423,
+                "y": 447
+            },
+            "type": "response",
+            "next_modules": [
+                {
+                    "id": "input_2",
+                    "outcome": "single",
+                    "incoming_side": "top",
+                    "outgoing_side": "bottom"
+                }
+            ],
+            "response_fields": {
+                "text": "how can I help?",
+                "speech": {
+                    "q": "Hi! how can I help?",
+                    "voice": "wit$Rubie",
+                    "speed": 100,
+                    "pitch": 110
+                }
+            }
+        },
+        {
+            "id": "decision_1",
+            "point": {
+                "x": 22,
+                "y": 183
+            },
+            "type": "decision",
+            "next_modules": [
+                {
+                    "id": "response_2",
+                    "outcome": "negative",
+                    "incoming_side": "top",
+                    "outgoing_side": "bottom"
+                },
+                {
+                    "id": "response_1",
+                    "outcome": "positive",
+                    "incoming_side": "top",
+                    "outgoing_side": "bottom"
+                }
+            ],
+            "decision_fields": {
+                "condition_root": "decision_1_intent_1",
+                "condition_nodes": [
+                    {
+                        "id": "decision_1_intent_1",
+                        "condition_type": "intent",
+                        "intent_fields": {
+                            "intent": "wake_word"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "input_1",
+            "point": {
+                "x": -510,
+                "y": 91
+            },
+            "type": "input",
+            "next_modules": [
+                {
+                    "id": "decision_1",
+                    "outcome": "single",
+                    "incoming_side": "left",
+                    "outgoing_side": "right"
+                }
+            ]
+        },
+        {
+            "id": "response_2",
+            "point": {
+                "x": -39,
+                "y": 468
+            },
+            "type": "response",
+            "next_modules": [
+                {
+                    "id": "input_3",
+                    "outcome": "single",
+                    "incoming_side": "top",
+                    "outgoing_side": "bottom"
+                }
+            ],
+            "response_fields": {
+                "text": "sorry I did not get that",
+                "speech": {
+                    "q": "sorry...I didn't get that",
+                    "voice": "wit$Rubie",
+                    "style": "soft",
+                    "pitch": 110
+                }
+            }
+        },
+        {
+            "id": "input_2",
+            "point": {
+                "x": 397,
+                "y": 848
+            },
+            "type": "input",
+            "label": "Input",
+            "next_modules": [
+                {
+                    "id": "decision_3",
+                    "outcome": "single",
+                    "incoming_side": "top",
+                    "outgoing_side": "bottom"
+                }
+            ]
+        },
+        {
+            "id": "response_3",
+            "point": {
+                "x": 534,
+                "y": 1403
+            },
+            "type": "response",
+            "label": "Response",
+            "response_fields": {
+                "text": "repeat",
+                "speech": {
+                    "q": "I am having a hard time hearing you",
+                    "voice": "wit$Rubie",
+                    "style": "formal",
+                    "speed": 110,
+                    "pitch": 110
+                }
+            }
+        },
+        {
+            "id": "decision_2",
+            "point": {
+                "x": 533,
+                "y": 1076
+            },
+            "type": "decision",
+            "label": "Decision",
+            "next_modules": [
+                {
+                    "id": "response_3",
+                    "outcome": "negative",
+                    "incoming_side": "top",
+                    "outgoing_side": "bottom"
+                },
+                {
+                    "id": "response_4",
+                    "outcome": "positive",
+                    "incoming_side": "left",
+                    "outgoing_side": "right"
+                }
+            ],
+            "decision_fields": {
+                "condition_root": "decision_2_entity_with_value_1",
+                "condition_nodes": [
+                    {
+                        "id": "decision_2_entity_with_value_1",
+                        "condition_type": "entity_with_value",
+                        "entity_with_value_fields": {
+                            "entity": "Find_Object:Find_Object",
+                            "threshold": 0.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "decision_3",
+            "point": {
+                "x": -40,
+                "y": 1076
+            },
+            "type": "decision",
+            "label": "Decision",
+            "next_modules": [
+                {
+                    "id": "decision_2",
+                    "outcome": "negative",
+                    "incoming_side": "left",
+                    "outgoing_side": "right"
+                },
+                {
+                    "id": "response_5",
+                    "outcome": "positive",
+                    "incoming_side": "top",
+                    "outgoing_side": "bottom"
+                }
+            ],
+            "decision_fields": {
+                "condition_root": "decision_3_entity_with_value_1",
+                "condition_nodes": [
+                    {
+                        "id": "decision_3_entity_with_value_1",
+                        "condition_type": "entity_with_value",
+                        "entity_with_value_fields": {
+                            "entity": "Never_mind:Never_mind",
+                            "threshold": 0.5
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "response_4",
+            "point": {
+                "x": 968,
+                "y": 1077
+            },
+            "type": "response",
+            "response_fields": {
+                "text": "Let me see...",
+                "speech": {
+                    "q": "hmm...Let me see...",
+                    "voice": "wit$Rubie",
+                    "style": "formal",
+                    "speed": 110,
+                    "pitch": 110
+                }
+            }
+        },
+        {
+            "id": "input_3",
+            "point": {
+                "x": -41,
+                "y": 848
+            },
+            "type": "input",
+            "label": "Input",
+            "next_modules": [
+                {
+                    "id": "decision_3",
+                    "outcome": "single",
+                    "incoming_side": "top",
+                    "outgoing_side": "bottom"
+                }
+            ]
+        },
+        {
+            "id": "response_5",
+            "point": {
+                "x": -15,
+                "y": 1378
+            },
+            "type": "response",
+            "response_fields": {
+                "text": "ok",
+                "speech": {
+                    "q": "alright. I'm here if you need me.",
+                    "voice": "wit$Rubie",
+                    "style": "formal",
+                    "speed": 110,
+                    "pitch": 110
+                }
+            }
+        }
+    ]
+}

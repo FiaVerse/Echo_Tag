@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca6a030-5a4f-4f93-8cf0-1c8007bffcbd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/ObjectTagManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnchorPlacement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnchorPlacement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ComposerWit.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ComposerWit.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Resources/ConduitManifest-4f4f0725-0cc1-4d8d-ac92-2d9cdb43f942.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Resources/ConduitManifest-4f4f0725-0cc1-4d8d-ac92-2d9cdb43f942.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Resources/ConduitManifest-b732ee97-b956-4501-8156-9ad4c75d3459.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Resources/ConduitManifest-b732ee97-b956-4501-8156-9ad4c75d3459.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Resources/ConduitManifest-d13dddd7-f2cd-4759-b275-6f0abefcfb8f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Resources/ConduitManifest-d13dddd7-f2cd-4759-b275-6f0abefcfb8f.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Resources/ConduitManifest-fdcdda7a-11c3-4fc6-83ff-8f1ec6b60c8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Voice/Resources/ConduitManifest-fdcdda7a-11c3-4fc6-83ff-8f1ec6b60c8b.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Meta - Voice SDK - Immersive Voice Commands/74.0.0/TTS Voices/Prefabs/TTSSpeaker.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Samples/Meta - Voice SDK - Immersive Voice Commands/74.0.0/TTS Voices/Prefabs/TTSSpeaker.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VoiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VoiceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/wit.config" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/wit.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +130,11 @@
       <workItem from="1747708070820" duration="109000" />
       <workItem from="1747708196163" duration="232000" />
       <workItem from="1747709768006" duration="624000" />
+      <workItem from="1747713893123" duration="24000" />
+      <workItem from="1747713940175" duration="1240000" />
+      <workItem from="1747716703040" duration="1897000" />
+      <workItem from="1747721651859" duration="29000" />
+      <workItem from="1747722086373" duration="13000" />
     </task>
     <servers />
   </component>
@@ -123,7 +143,6 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
-    <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
