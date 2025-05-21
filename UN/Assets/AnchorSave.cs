@@ -1,16 +1,32 @@
 using UnityEngine;
+using Meta.XR.BuildingBlocks;
+using UnityEngine;
+using Meta.WitAi.Json;
+using Meta.WitAi.CallbackHandlers;
 
-public class AnchorPlacement : MonoBehaviour
+public class AnchorSave : MonoBehaviour
 {
     public GameObject anchorPrefab;
-
-    void Update()
-    {
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
+    
+    
+        // Called by Wit.ai with the intent and entities - voice command to save_anchor
+        public void OnWitResponse(WitResponseNode response)
         {
-            CreateSpatialAnchor();
+            string intent = response["intents"]?[0]?["name"]?.Value;
+            if (intent != "save_anchor") return;
+
+            string label = response["entities"]["object:object"]?[0]?["value"]?.Value;
+            if (string.IsNullOrEmpty(label))
+            {
+                Debug.LogWarning("No label provided in voice command.");
+                return;
+            }
+
+            CreateSpatialAnchor(); // put label in (label) ?
         }
-    }
+        
+        
+    
 
     public void CreateSpatialAnchor()
     {
@@ -20,5 +36,7 @@ public class AnchorPlacement : MonoBehaviour
             OVRInput.GetLocalControllerRotation(OVRInput.Controller.RTouch));
 
         prefab.AddComponent<OVRSpatialAnchor>();
+        
+        
     }
 }
