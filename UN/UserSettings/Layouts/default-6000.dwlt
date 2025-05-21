@@ -1018,7 +1018,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0.094473474, y: -0.029005744, z: 0.26079005}
+    m_Target: {x: -0.016999997, y: 0.22, z: 0.6098897}
     speed: 2
     m_Value: {x: 0.094473474, y: -0.029005744, z: 0.26079005}
   m_RenderMode: 0
@@ -1066,11 +1066,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.17503649, y: -0.025002724, z: 0.0044464166, w: 0.98423654}
+    m_Target: {x: 0.19211774, y: -0.18751594, z: 0.037424326, w: 0.96256846}
     speed: 2
     m_Value: {x: -0.1750365, y: 0.025002724, z: -0.0044464166, w: -0.98423654}
   m_Size:
-    m_Target: 0.3674433
+    m_Target: 0.9965708
     speed: 2
     m_Value: 0.3674433
   m_Ortho:
@@ -1339,7 +1339,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 127}
     m_SelectedIDs: 28ef0000
     m_LastClickedID: 61224
-    m_ExpandedIDs: 0000000012ef000014ef000016ef000018ef00001aef00001cef00001eef000020ef000022ef000024ef000026ef000028ef00002aef00002cef00002eef000030ef000032ef000034ef000036ef000038ef00003aef00003cef00003eef000040ef000042ef000044ef000046ef000048ef00004aef00004cef0000
+    m_ExpandedIDs: 000000002eef000030ef000032ef000034ef000036ef000038ef00003aef00003cef00003eef000040ef000042ef000044ef000046ef000048ef00004aef00004cef00004eef000050ef000052ef000054ef000056ef000058ef00005aef00005cef00005eef000060ef000062ef000064ef000066ef000068ef0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1368,7 +1368,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012ef000014ef000016ef000018ef00001aef00001cef00001eef000020ef000022ef000024ef000026ef000028ef00002aef00002cef00002eef000030ef000032ef000034ef000036ef000038ef00003aef00003cef00003eef000040ef000042ef000044ef000046ef000048ef00004aef00004cef0000
+    m_ExpandedIDs: 000000002eef000030ef000032ef000034ef000036ef000038ef00003aef00003cef00003eef000040ef000042ef000044ef000046ef000048ef00004aef00004cef00004eef000050ef000052ef000054ef000056ef000058ef00005aef00005cef00005eef000060ef000062ef000064ef000066ef000068ef0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

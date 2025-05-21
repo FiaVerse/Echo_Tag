@@ -2,12 +2,18 @@ using UnityEngine;
 
 public class FindObject : MonoBehaviour
 {
-   
+    public GameObject orb;
+    
 
-    // Update is called once per frame
+
+    void Start()
+    {
+        orb.SetActive(false);   
+        
+    }
     public void GuidingToObject()
     {
-        Debug.Log("guiding to object");
+        orb.SetActive(true);
         
     }
 }
