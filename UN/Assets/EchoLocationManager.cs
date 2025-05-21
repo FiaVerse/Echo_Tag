@@ -19,14 +19,7 @@ public class EcholocationManager : MonoBehaviour
         playerAudio.spatialBlend = 0f; // 2D sound from player
     }
 
-    void Update()
-    {
-        // For testing: use voice trigger or button
-        if (Input.GetKeyDown(KeyCode.E) && canPing)
-        {
-            StartCoroutine(DoEcholocationPing());
-        }
-    }
+   
 
     IEnumerator DoEcholocationPing()
     {
