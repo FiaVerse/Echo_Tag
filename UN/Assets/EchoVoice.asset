@@ -15,13 +15,19 @@ MonoBehaviour:
   canvases:
   - canvasName: Draft
     contextMap:
-      server: []
+      server:
+      - path: test
+        values:
+        - Find_Object:Find_Object
       client: []
       shared: []
     actions: []
   - canvasName: Live
     contextMap:
-      server: []
+      server:
+      - path: test
+        values:
+        - Find_Object:Find_Object
       client: []
       shared: []
     actions: []
@@ -47,9 +53,9 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2025-05-17T10:06:12-0700
     trainingStatus: 1
-    lastTrainDuration: 47
-    lastTrainedAt: 2025-05-19T22:45:41-0700
-    nextTrainAt: 2025-05-19T22:44:54-0700
+    lastTrainDuration: 97
+    lastTrainedAt: 2025-05-21T09:57:05-0700
+    nextTrainAt: 2025-05-21T09:55:28-0700
     intents:
     - id: 1357031942047403
       name: cancel
@@ -70,6 +76,10 @@ MonoBehaviour:
       entities:
       - name: location:save_location
         id: 1706033133616897
+      - name: object:object
+        id: 1720280308590664
+      - name: save:save
+        id: 707339228373942
     - id: 1412950316262498
       name: wake_word
       entities:
@@ -80,6 +90,9 @@ MonoBehaviour:
       entities:
       - name: Never_mind:Never_mind
         id: 1729564144432416
+    - id: 1228728721973054
+      name: wit$play
+      entities: []
     entities:
     - name: Find_Object
       id: 2065490087266069
@@ -129,6 +142,12 @@ MonoBehaviour:
         - anchor
         - location
         - spot
+      - keyword: location
+        synonyms:
+        - location
+      - keyword: on the counter
+        synonyms:
+        - on the counter
       - keyword: save
         synonyms:
         - remember location
@@ -151,6 +170,21 @@ MonoBehaviour:
       - keyword: keys
         synonyms:
         - keys
+    - name: save
+      id: 3708944116065600
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: save
+        id: 707339228373942
+      keywords:
+      - keyword: remember
+        synonyms:
+        - remember
+      - keyword: save
+        synonyms:
+        - save
     - name: wake_word
       id: 1198692728086910
       lookups:

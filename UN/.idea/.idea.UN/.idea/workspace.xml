@@ -5,8 +5,314 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ca6a030-5a4f-4f93-8cf0-1c8007bffcbd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/AnchorPosition.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UN/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AnchorSave.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnchorSave.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnchorSave.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AnchorSave.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AnchorPosition.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/EchoVoice.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/EchoVoice.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MetaXR/MetaXRProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MetaXR/MetaXRProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SpatialAnchors/EchoPulse.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SpatialAnchors/EchoPulse.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/AudioMixer.mixer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/AudioMixer.mixer.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/Cricket_1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/Cricket_1.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/Cricket_2.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/Cricket_2.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/Cricket_3.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/Cricket_3.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/Cricket_4.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/Cricket_4.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/DesertAmb_01.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Audio/SFX/Ambient/DesertAmb_01.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Data/Hint Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Data/Hint Data/Level 1_1 Hints.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Data/Hint Data/Level 1_1 Hints.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Data/Tooltip Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Data/Tooltip Data/Move Tooltips.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Data/Tooltip Data/Move Tooltips.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/Arial Overlay SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/Arial Overlay SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/Arial-Bold SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/Arial-Bold SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/FredokaOne-Regular SDF 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/FredokaOne-Regular SDF 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/FredokaOne-Regular SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/FredokaOne-Regular SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/FredokaOne-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Fonts/FredokaOne-Regular.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/ConsentMenu.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/ConsentMenu.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/MainMenu_ResetButton.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/MainMenu_ResetButton.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/Shimmer.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/Shimmer.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/Toon_GrdnHouse.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/Toon_GrdnHouse.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitActivationBackground.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitActivationBackground.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitActivationStatusIcon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitActivationStatusIcon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitActivationVoiceVolumeIcon.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitActivationVoiceVolumeIcon.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitTooltipHeader.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitTooltipHeader.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitTooltipUtterance.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Materials/WitTooltipUtterance.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Meshes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Meshes/BrokenPot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Meshes/BrokenPot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Meshes/pots.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Meshes/pots.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs/Props_Broken.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs/Props_Broken/pot_A_Tall_broken.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs/Props_Broken/pot_A_Tall_broken.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs/UI/FirstRunTooltip.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs/UI/FirstRunTooltip.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs/UI/VoiceUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Prefabs/UI/VoiceUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 0.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 0/ConsentContentManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 0/ConsentContentManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 0/Level_0_Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 0/Level_0_Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 1/Level_1_Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 1/Level_1_Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 2/Level_2_Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 2/Level_2_Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 3/Level_3_Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 3/Level_3_Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 4/Level_4_Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scenes/Level 4/Level_4_Manager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Animation/AnimationEvents.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Animation/AnimationEvents.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Animation/FloatingAnim.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Animation/FloatingAnim.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Animation/Rotate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Animation/Rotate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/AudioEventPlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/AudioEventPlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/AudioManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/AudioManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/AudioMultiVoicePlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/AudioMultiVoicePlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/AudioPlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/AudioPlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/MicInputValue.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/MicInputValue.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/SoundLib.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/SoundLib.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/SpatialSource.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Audio/SpatialSource.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/Cactus.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/Cactus.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/Chalkboard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/Chalkboard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/Checkmark.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/Checkmark.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/Destructable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/Destructable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/FSpell.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/FSpell.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/FogController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/FogController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/HeroPlant.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/HeroPlant.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/LevelLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/LevelLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/LevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/LevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/LightsMaterialController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/LightsMaterialController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/LogosController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/LogosController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/MaterialFader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Logic/MaterialFader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/BoundsDetector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/BoundsDetector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/ButtonToggleEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/ButtonToggleEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/CameraColorOverlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/CameraColorOverlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/CameraMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/CameraMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/LineVisualEnable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/LineVisualEnable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/RigHandsControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/RigHandsControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/RigHeightControl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/RigHeightControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/SpeakParticles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/SpeakParticles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/SupersController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/SupersController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/ToggleObjectsActive.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/ToggleObjectsActive.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/XRButtonEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Player Rig/XRButtonEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/FirstRunTooltip.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/FirstRunTooltip.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/FollowUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/FollowUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/HighlightObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/HighlightObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/HintDefinition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/HintDefinition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/LevelSelectButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/LevelSelectButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/LevelSelectButtons.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/LevelSelectButtons.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/ResponseDefinition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/ResponseDefinition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/SetCanvasEventCamera.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/SetCanvasEventCamera.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/SetVersionDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/SetVersionDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/SpeechBubble.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/SpeechBubble.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/UXManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/UXManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/UXTrackedDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/UXTrackedDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/UtteranceTooltipDefinition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/UI/UtteranceTooltipDefinition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/Easings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/Easings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/Logger.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/Logger.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/Singleton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/Singleton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/SpriteAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/SpriteAnimator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/TimerUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/TimerUtils.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/Utilities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Utility/Utilities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Drawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Drawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Enums.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Enums/ForceDirection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Enums/ForceDirection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Enums/SeedColor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Enums/SeedColor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/ForceMovable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/ForceMovable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/HaroldTheBird.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/HaroldTheBird.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Openable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Openable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Radio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/Radio.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/TreasureChest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/TreasureChest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/WaterFaucet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable Objects/WaterFaucet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/Listenable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/ListenableUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/ListenableUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/SpeakGestureWatcher.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/SpeakGestureWatcher.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/VoiceUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Scripts/Voice/VoiceUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders/GetMainLight_WithShadows.hlsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders/GetMainLight_WithShadows.hlsl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders/Toon_Projection.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders/Toon_Projection.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders/Toon_Projection_Shimmer.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders/Toon_Projection_Shimmer.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders/UnlitOverlay.shadergraph" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Shaders/UnlitOverlay.shadergraph.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/Dots.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/Dots.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/Gradient Lines.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/Gradient Lines.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/LinearGradient2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/LinearGradient2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/Noise_Clouds.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/Noise_Clouds.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Main Menu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Main Menu/button-resetScene-filled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Main Menu/button-resetScene-filled.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Main Menu/menu-panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Main Menu/menu-panel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens/button-accept-filled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens/button-accept-filled.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens/button-accept-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens/button-accept-outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens/button-cancel-filled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens/button-cancel-filled.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens/button-cancel-outline.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Start Screens/button-cancel-outline.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/info_Filled_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/info_Filled_128.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/microphone-on_Filled_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/microphone-on_Filled_128.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/tooltip_panel_bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/tooltip_panel_bottom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/tooltip_panel_top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/tooltip_panel_top.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/voice_volume_indicator.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/voice_volume_indicator.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_activation_panel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_activation_panel.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_error.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_fail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_fail.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_inactionable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_inactionable.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_success.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_thinking.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/UI/Wit/wit_response_icon_thinking.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/Veroni.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/Veroni.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/garden_diff_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Whisperer/Textures/garden_diff_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/other/Oculus/Voice/Resources/ConduitManifest-4dd25457-1ff6-4800-8b50-fef00b6cac8f.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/other/Oculus/Voice/Resources/ConduitManifest-4dd25457-1ff6-4800-8b50-fef00b6cac8f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/ConsentDialog.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/ConsentDialog.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/Listenables Level 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/Listenables Level 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/Manager Level 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/Manager Level 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/PermissionsDialog.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/PermissionsDialog.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/SFX_Ambiance.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/SFX_Ambiance.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/VoiceUI.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/whisperersource/VoiceUI.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +324,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/AnchorSave.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TimerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TimerDisplay.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -129,6 +435,9 @@
       <workItem from="1747778937877" duration="2394000" />
       <workItem from="1747839911203" duration="2553000" />
       <workItem from="1747842664656" duration="19000" />
+      <workItem from="1747844919345" duration="2274000" />
+      <workItem from="1747849752784" duration="90000" />
+      <workItem from="1747850939261" duration="1422000" />
     </task>
     <servers />
   </component>
@@ -137,6 +446,7 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
