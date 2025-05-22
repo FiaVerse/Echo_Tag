@@ -53,17 +53,10 @@ MonoBehaviour:
     isPrivate: 0
     createdAt: 2025-05-17T10:06:12-0700
     trainingStatus: 1
-    lastTrainDuration: 97
-    lastTrainedAt: 2025-05-21T09:57:05-0700
-    nextTrainAt: 2025-05-21T09:55:28-0700
+    lastTrainDuration: 61
+    lastTrainedAt: 2025-05-22T03:07:37-0700
+    nextTrainAt: 2025-05-22T03:06:36-0700
     intents:
-    - id: 1357031942047403
-      name: cancel
-      entities:
-      - name: Find_Object:Find_Object
-        id: 9877954315632092
-      - name: object:object
-        id: 1720280308590664
     - id: 1472378160409471
       name: find_object
       entities:
@@ -85,11 +78,6 @@ MonoBehaviour:
       entities:
       - name: wake_word:wake_word
         id: 1921106191968490
-    - id: 1080611463958897
-      name: wit$cancel
-      entities:
-      - name: Never_mind:Never_mind
-        id: 1729564144432416
     - id: 1228728721973054
       name: wit$play
       entities: []
@@ -102,9 +90,9 @@ MonoBehaviour:
       - name: Find_Object
         id: 9877954315632092
       keywords:
-      - keyword: controller
+      - keyword: can't find
         synonyms:
-        - controller
+        - can't find
       - keyword: find
         synonyms:
         - can't find
@@ -112,9 +100,6 @@ MonoBehaviour:
       - keyword: glasses
         synonyms:
         - glasses
-      - keyword: keys
-        synonyms:
-        - keys
     - name: Never_mind
       id: 1806818243212313
       lookups:
@@ -161,6 +146,9 @@ MonoBehaviour:
       - name: object
         id: 1720280308590664
       keywords:
+      - keyword: charger
+        synonyms:
+        - charger
       - keyword: controller
         synonyms:
         - controller
@@ -170,6 +158,9 @@ MonoBehaviour:
       - keyword: keys
         synonyms:
         - keys
+      - keyword: wallet
+        synonyms:
+        - wallet
     - name: save
       id: 3708944116065600
       lookups:

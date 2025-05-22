@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
@@ -17,13 +18,21 @@ public class VoiceManager : MonoBehaviour
     [Header("UI Elements")]
     [SerializeField] private TextMeshProUGUI transcriptionText;
     [SerializeField] private TextMeshProUGUI composerResponseText;
+    [SerializeField] private GameObject mic;
 
+    
     [Header("Voice Events")]
     //[SerializeField] private AmazonBedrockConnection amazonBedrockConnection;
     [SerializeField] private UnityEvent wakeWordDetected;
     [SerializeField] private UnityEvent<string> completeTranscription;
 
     private bool _voiceCommandReady;
+
+    private void Start()
+    {
+        mic.SetActive(false);
+
+    }
 
     private void Awake()
     {
@@ -45,6 +54,7 @@ public class VoiceManager : MonoBehaviour
         appVoiceExperience.VoiceEvents.OnRequestCompleted.RemoveListener(ReactivateVoice);
         appVoiceExperience.VoiceEvents.OnPartialTranscription.RemoveListener(OnPartialTranscription);
         appVoiceExperience.VoiceEvents.OnFullTranscription.RemoveListener(OnFullTranscription);
+        mic.SetActive(false);
 
 
         var eventField = typeof(WitResponseMatcher).GetField("onMultiValueEvent", BindingFlags.NonPublic | BindingFlags.Instance);
@@ -58,6 +68,7 @@ public class VoiceManager : MonoBehaviour
 
     private void WakeWordDetected(string[] arg0)
     {
+        mic.SetActive(true);
         _voiceCommandReady = true;
         wakeWordDetected?.Invoke();
         Debug.Log("Wake Word Detected");
